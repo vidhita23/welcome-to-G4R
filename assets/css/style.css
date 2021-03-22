@@ -627,6 +627,11 @@ section {
   line-height: 32px;
   font-size: 24px;
 }
+.about .content h5 {
+  font-weight: 550;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
 
 .about .content ul {
   list-style: none;
@@ -649,7 +654,15 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+@media (max-width: 1048px) {
+  .about .content h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+}
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -747,6 +760,15 @@ section {
   position: absolute;
   font-size: 20px;
   color: #d9232d;
+}
+.icon-box button {
+  display: block;
+  outline: none;
+  border: none;
+  position: relative;
+  bottom: 20%;
+  left: 80%;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 /*--------------WWRRRONNG------------------------------------------------
