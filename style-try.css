@@ -210,6 +210,9 @@ h6 {
   font-size: 48px;
   line-height: 50px;
 }
+.benifit-main-heading p {
+  text-align: center;
+}
 
 .benfit-points li {
   display: inline-block;
@@ -537,5 +540,76 @@ h6 {
     margin-right: 10%;
     align-items: center;
     flex-wrap: wrap;
+  }
+}
+
+.nsic {
+  display: flex;
+}
+.nsic-heading {
+  text-align: center;
+  width: 100%;
+}
+.nsic-heading h3 {
+  width: 70%;
+  margin-left: 20%;
+  text-align: center;
+  margin-bottom: 4%;
+  font-weight: 550;
+  width: 60%;
+  line-height: 50px;
+}
+.nsic-image img {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.nsic-image {
+  display: flex;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 15%;
+}
+.nsic-text {
+  margin-left: 15%;
+}
+.nsic-text ul {
+  list-style: none;
+  padding: 0;
+}
+.nsic-text ul li {
+  padding: 15px 0 0 38px;
+  position: relative;
+}
+.nsic-text li:hover {
+  color: #f15d69;
+}
+.nsic-text i:hover {
+  color: #f15d69;
+}
+.nsic-text i {
+  color: #e24d55;
+  text-align: center;
+  height: 50%;
+  left: 0;
+  top: 15px;
+  position: absolute;
+}
+@media (max-width: 1048px) {
+  .nsic-heading {
+    text-align: center;
+    width: 100%;
+  }
+  .nsic-heading h3 {
+    width: 100%;
+    margin-left: 0%;
+    text-align: center;
+    margin-bottom: 4%;
+    font-weight: 550;
+    line-height: 40px;
   }
 }

@@ -1266,15 +1266,21 @@ section {
   margin: 20px 0;
   padding: 20px 0;
   border-bottom: 1px solid white;
+  position: relative;
 }
 
 .faq .faq-item i {
-  color: #dee2e6;
-  font-size: 20px;
+  font-size: 25px;
   float: left;
   line-height: 0;
   padding: 13px 0 0 0;
   margin: 0;
+  color: #e24d55;
+  text-align: center;
+  height: 50%;
+  left: 0;
+  top: 20px;
+  position: absolute;
 }
 
 .faq .faq-item h4 {
@@ -1287,6 +1293,14 @@ section {
 
 .faq .faq-item p {
   font-size: 15px;
+}
+.faq i {
+  color: #e24d55;
+  text-align: center;
+  height: 50%;
+  left: 0;
+  top: 15px;
+  position: absolute;
 }
 
 /*--------------------------------------------------------------
